@@ -48,3 +48,8 @@ on command "/javaessentials":
 		message "{@notfound}"
 		cancel event
 		
+on command "/roleitems":
+	if player doesn't have permission "{@permission}":
+		message "{@notfound}"
+		cancel event
+		
