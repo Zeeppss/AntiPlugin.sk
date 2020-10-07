@@ -1,5 +1,6 @@
 # OPTIONS!
 # Here you can configure the Skript!
+# Made by Zeeppss!
 
 options:
 	notfound: &fUnknown command. Type ""/help"" for help.
@@ -8,48 +9,19 @@ options:
 # THE CODE
 # Only change if you know what you do!
 	
-on command "/plugins":
+on command "/example1":
 	if player doesn't have permission "{@permission}":
 		message "{@notfound}"
 		cancel event
 		
-on command "/plugin":
+on command "/example2":
 	if player doesn't have permission "{@permission}":
 		message "{@notfound}"
 		cancel event
 		
-on command "/pl":
+on command "/example3":
 	if player doesn't have permission "{@permission}":
 		message "{@notfound}"
 		cancel event
 		
-on command "/help":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
-		
-on command "/?":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
-		
-on command "/sk":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
-		
-on command "/skript":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
-		
-on command "/javaessentials":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
-		
-on command "/roleitems":
-	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
-		cancel event
 		
