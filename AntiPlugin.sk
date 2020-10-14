@@ -20,9 +20,11 @@ on command "/example2":
 		message "{@notfound}"
 		cancel event
 		
+		or 
+		
 on command "/example3":
 	if player doesn't have permission "{@permission}":
-		message "{@notfound}"
+		message "You don't have this permission!"
 		cancel event
 		
 		
